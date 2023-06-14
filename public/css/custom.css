@@ -1,0 +1,26 @@
+body {
+    height: 100%;
+}
+
+.login-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+.navbar-logo {
+    width: auto;
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+
+.badge-background-primary {
+    background-color: white;
+    color: #007bff;
+}
