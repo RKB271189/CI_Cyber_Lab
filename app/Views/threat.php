@@ -192,14 +192,7 @@
                 borderWidth: 1,
                 backgroundColor: ["#d5d975", "#e691b5", "#4b92e3"],
             }]
-        },
-        options: {
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
-            }
-        }
+        }      
     });
 </script>
 <?= $this->include('layouts/dashboard-foot') ?>
