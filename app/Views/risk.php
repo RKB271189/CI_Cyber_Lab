@@ -73,7 +73,6 @@
         </div>
     </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
     var lowCount = <?php echo count($risk['email_at_risk_low']); ?>;
     var mediumCount = <?php echo count($risk['email_at_risk_medium']); ?>;
@@ -87,7 +86,7 @@
                 label: '# of Email Risk',
                 data: [lowCount, mediumCount, highCount],
                 borderWidth: 1,
-                backgroundColor: ["yellow", "orange", "green"],
+                backgroundColor: ["#f7d5a1", "#a0f2a8", "#b58aa0"],
             }]
         },
         options: {

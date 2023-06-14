@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="report">
-                <h3>Cyber Lab Inc</h3>
+                <h3><?php echo 'CyberLab Inc'; ?></h3>
             </a>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
